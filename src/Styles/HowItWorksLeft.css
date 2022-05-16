@@ -1,0 +1,100 @@
+.howitworks__article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.howitworks__title {
+  width: 345px;
+  height: 66px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 66px;
+  text-align: center;
+  color: #fafafa;
+  margin: 0;
+}
+
+.howitworks__desc {
+  width: 558px;
+  height: 108px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 151.02%;
+  letter-spacing: 0.01em;
+  color: rgba(250, 250, 250, 0.6);
+  margin: 0;
+  padding-left: 30px;
+}
+.cloud {
+  top: 10%;
+  left: 50%;
+  position: absolute;
+  transition: all 1s;
+  animation: moveCloud 10s infinite;
+}
+@keyframes moveCloud {
+  0% {
+    left: 50%;
+    top: 10%;
+  }
+  20% {
+    left: 45%;
+    top: 10%;
+  }
+  40% {
+    left: 40%;
+    top: 10%;
+  }
+  60% {
+    left: 45%;
+    top: 10%;
+  }
+  80% {
+    left: 50%;
+    top: 10%;
+  }
+}
+.star {
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  animation-name: starroll;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-delay: 2s;
+}
+@keyframes starroll {
+  /* Basic move left and right*/
+  0% {
+    transform: rotate(0);
+  }
+  20% {
+    transform: rotate(-0.25turn);
+  }
+  40% {
+    transform: rotate(0.25turn);
+  }
+  60% {
+    transform: rotate(-0.25turn);
+  }
+  80% {
+    transform: rotate(0.25turn);
+  }
+  100% {
+    transform: rotate(-0.25turn);
+  }
+}
+.SideEllipse {
+  position: absolute;
+  top: 65%;
+}
+
+.waviy {
+  position: relative;
+}

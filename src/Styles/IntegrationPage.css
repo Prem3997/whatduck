@@ -1,0 +1,12 @@
+.integration__page {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background: rgb(52, 47, 202);
+  background: linear-gradient(
+    90deg,
+    rgba(52, 47, 202, 1) 0%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  gap: 30px;
+}

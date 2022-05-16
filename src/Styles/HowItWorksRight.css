@@ -1,0 +1,70 @@
+img.siderectangle {
+  margin-left: -70px;
+}
+.illustration {
+  position: absolute;
+  margin-left: 60%;
+  margin-top: 20%;
+}
+.Ellipse {
+  position: absolute;
+  left: 85%;
+  top: 8%;
+  animation-name: roll;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-delay: 2s;
+}
+@keyframes roll {
+  /* Basic move left and right*/
+  0% {
+    transform: translateX(150px) rotate(0);
+  }
+  20% {
+    transform: translateX(0px) rotate(-0.5turn);
+  }
+  40% {
+    transform: translateX(-150px) rotate(-1turn);
+  }
+  60% {
+    transform: translateX(0px) rotate(-0.5turn);
+  }
+  80% {
+    transform: translateX(150px) rotate(-1turn);
+  }
+  100% {
+    transform: translateX(0px) rotate(1.5turn);
+  }
+}
+.star__right {
+  position: absolute;
+  top: 86%;
+  left: 70%;
+  animation-name: starroll;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-delay: 2s;
+}
+@keyframes starroll {
+  /* Basic move left and right*/
+  0% {
+    transform: rotate(0);
+  }
+  20% {
+    transform: rotate(-0.25turn);
+  }
+  40% {
+    transform: rotate(0.25turn);
+  }
+  60% {
+    transform: rotate(-0.25turn);
+  }
+  80% {
+    transform: rotate(0.25turn);
+  }
+  100% {
+    transform: rotate(-0.25turn);
+  }
+}

@@ -1,0 +1,67 @@
+.circle {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  margin-left: 20px;
+}
+.nucleus {
+  position: absolute;
+  left: 165.86px;
+  margin-top: 198.16px;
+}
+.int-icon {
+  position: absolute;
+}
+.integration1 {
+  margin-top: 19%;
+  margin-left: -29%;
+  transform: rotate(0deg) translate(150px);
+  transition: transform 0.7s linear;
+  animation: rotate 7s infinite linear;
+}
+.integration2 {
+  margin-top: 19%;
+  margin-left: -29%;
+  transform: rotate(0deg) translate(150px);
+  transition: transform 0.7s linear;
+  animation: rotate 7s infinite linear;
+  animation-delay: -3.6s;
+}
+.integration3,
+.integration4,
+.integration5 {
+  margin-top: 19%;
+  margin-left: -29%;
+  transform: rotate(0deg) translate(150px);
+  transition: transform 0.7s linear;
+  animation: rotateBig 7s infinite linear;
+}
+.integration3 {
+  animation-delay: -5s;
+}
+.integration4 {
+  animation-delay: -10s;
+}
+.integration5 {
+  animation-delay: -15s;
+}
+@keyframes rotate {
+  from {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg) translate(50px) rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(360deg) translate(50px) rotate(-360deg);
+  }
+}
+
+@keyframes rotateBig {
+  from {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg) translate(200px) rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(360deg) translate(200px) rotate(-360deg);
+  }
+}

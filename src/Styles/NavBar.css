@@ -1,0 +1,89 @@
+.navbar {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.navbar__logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+  cursor: pointer;
+}
+.logo__text {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 45px;
+  text-transform: uppercase;
+  color: #fafafa;
+  text-decoration: none;
+  cursor: pointer;
+}
+.link {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #fafafa;
+  text-decoration: none;
+  cursor: pointer;
+}
+.link:hover {
+  color: rgba(245, 69, 228, 0.6) 9.92%;
+  text-decoration: underline;
+}
+.button__login {
+  width: 207px;
+  height: 60px;
+  background: linear-gradient(
+    103.72deg,
+    rgba(245, 69, 228, 0.6) 9.92%,
+    rgba(59, 43, 255, 0.6) 145.24%
+  );
+  border-radius: 10px;
+  outline: none;
+  cursor: pointer;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #fafafa;
+  border: none;
+  transition: all 0.5s;
+}
+
+.button__login span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+.button__login span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+.button__login:hover span {
+  padding-right: 25px;
+}
+
+.button__login:hover span:after {
+  opacity: 1;
+  right: 0;
+}

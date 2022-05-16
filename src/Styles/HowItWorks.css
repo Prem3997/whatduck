@@ -1,0 +1,9 @@
+.howitworks__page {
+  background: #161213;
+  backdrop-filter: blur(100px);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 10px;
+}
+

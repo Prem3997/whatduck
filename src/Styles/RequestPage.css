@@ -1,0 +1,81 @@
+.request__page {
+  background: #161213;
+  padding: 30px 0;
+}
+.request__title {
+  padding-top: 72px;
+  padding-left: 142px;
+  margin: 0;
+  width: 711px;
+  height: 132px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 66px;
+  color: #fafafa;
+}
+.requestEllipse {
+  position: absolute;
+  margin-top: -200px;
+  margin-left: 92%;
+}
+.round__request {
+  position: absolute;
+  margin-top: -80px;
+  margin-left: 80px;
+}
+.round {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  transition: all 1s;
+  animation: dash 4s linear infinite;
+}
+@keyframes dash {
+  from {
+    stroke-dashoffset: 1000;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+.line {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  transition: all 1s;
+  animation: line 4s linear infinite;
+}
+@keyframes line {
+  from {
+    stroke-dashoffset: 1000;
+  }
+  to {
+    stroke-dashoffset: 0;
+    fill: #ffe921;
+  }
+}
+.line__request {
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 195px;
+}
+.arrow__request {
+  position: absolute;
+  margin-top: 100px;
+  margin-left: 300px;
+}
+.arrow {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  transition: all 1s;
+  animation: line 4s linear infinite;
+}
+@keyframes arrow {
+  from {
+    stroke-dashoffset: 1000;
+  }
+  to {
+    stroke-dashoffset: 0;
+    fill: #ffe921;
+  }
+}

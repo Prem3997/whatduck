@@ -1,0 +1,45 @@
+.request__input {
+  width: 700px;
+  height: 60px;
+  background: #fafafa;
+  border-radius: 10px;
+  margin-top: 12%;
+  margin-left: 142px;
+  border: none;
+  outline: none;
+  font-size: 24px;
+  padding-left: 20px;
+}
+.request__input::placeholder {
+  width: 211px;
+  height: 22px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: rgba(18, 18, 18, 0.5);
+}
+.request__button {
+  width: 207px;
+  height: 60px;
+  background: linear-gradient(
+    103.72deg,
+    rgba(245, 69, 228, 0.6) 9.92%,
+    rgba(59, 43, 255, 0.6) 145.24%
+  );
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin-left: 50px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #fafafa;
+}

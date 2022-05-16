@@ -1,0 +1,5 @@
+.container__homepage {
+  height: 147vh;
+  background: rgb(0,0,0);
+  background: linear-gradient(180deg, rgba(0,0,0,1) 45%, rgba(142,6,148,1) 100%);
+}
