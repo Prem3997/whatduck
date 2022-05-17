@@ -1,7 +1,7 @@
 .landingPageRight {
   display: flex;
   justify-content: flex-end;
-  margin-left: -20px;
+  margin-left: 48px;
   margin-top: 2%;
   background: rgba(45, 20, 101, 0.5);
   border-radius: 99% 1% 0% 100% / 51% 0% 100% 100%;

@@ -15,6 +15,7 @@
   text-align: center;
   color: #fafafa;
   margin: 0;
+  margin-left: 25px;
 }
 
 .howitworks__desc {
@@ -93,6 +94,7 @@
 .SideEllipse {
   position: absolute;
   top: 65%;
+  margin-left: -1%;
 }
 
 .waviy {

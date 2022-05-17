@@ -15,8 +15,8 @@ const SecondPageRight = () => {
       <img
         src="/assets/images/Union.png"
         alt="union"
-        width={276}
-        height={120}
+        width={200}
+        height={100}
         className="union"
       />
     </>

@@ -17,10 +17,11 @@
   color: rgba(250, 250, 250, 0.8);
   width: 405px;
   height: 27px;
-  top: 280px;
-  left: 30%;
+  top: 450px;
+  left: 33%;
 }
 img.footer__trustedBy {
   position: relative;
   top: -150px;
+  margin-left: 5%;
 }

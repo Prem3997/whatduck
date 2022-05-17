@@ -18,7 +18,7 @@
   line-height: 24px;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: #c956ff;
+  color: rgba(245, 69, 228, 0.6);
 }
 .footer__main__logo {
   display: flex;
@@ -37,6 +37,9 @@
   line-height: 24px;
   color: #fafafa;
   cursor: pointer;
+}
+.footer__main__links:hover {
+  color: rgba(245, 69, 228, 0.6);
 }
 .footer__linkedin {
   display: flex;
@@ -80,7 +83,7 @@
   color: rgba(250, 250, 250, 0.4);
 }
 .footer__link {
-  width: 110px;
+  width: 111px;
   height: 22px;
   font-family: "Inter";
   font-style: normal;
@@ -91,7 +94,10 @@
   color: rgba(250, 250, 250, 0.8);
   cursor: pointer;
 }
-.footer__developer{
+.footer__link:hover {
+  color: rgba(245, 69, 228, 0.6);
+}
+.footer__developer {
   font-family: "Inter";
   font-style: normal;
   font-weight: 600;
