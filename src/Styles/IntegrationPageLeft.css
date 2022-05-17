@@ -13,14 +13,14 @@
 }
 .integration1 {
   margin-top: 19%;
-  margin-left: -29%;
+  margin-left: -30%;
   transform: rotate(0deg) translate(150px);
   transition: transform 0.7s linear;
   animation: rotate 7s infinite linear;
 }
 .integration2 {
   margin-top: 19%;
-  margin-left: -29%;
+  margin-left: -30%;
   transform: rotate(0deg) translate(150px);
   transition: transform 0.7s linear;
   animation: rotate 7s infinite linear;
