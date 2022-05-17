@@ -27,7 +27,7 @@
 .link {
   font-family: "Inter";
   font-style: normal;
-  font-weight: 400;
+  font-weight: 900;
   font-size: 14px;
   line-height: 17px;
   text-align: center;
@@ -38,8 +38,8 @@
   cursor: pointer;
 }
 .link:hover {
-  color: rgba(245, 69, 228, 0.6) 9.92%;
-  text-decoration: underline;
+  color: rgba(245, 69, 228, 0.6);
+  transform: scale(1.1);
 }
 .button__login {
   width: 207px;

@@ -42,7 +42,7 @@
     color: turquoise;
   }
   80% {
-    color: #f545e4  ;
+    color: #f545e4;
   }
   100% {
     color: turquoise;
@@ -75,6 +75,28 @@
   letter-spacing: 0.12em;
   text-transform: uppercase;
   color: #180b19;
+}
+.request__demo span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+.request__demo span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+.request__demo:hover span {
+  padding-right: 25px;
+}
+
+.request__demo:hover span:after {
+  opacity: 1;
+  right: 0;
 }
 
 .text_1 {
@@ -127,7 +149,7 @@
   }
   10%,
   40% {
-    width: 12.2em;
+    width: 14em;
   }
 }
 

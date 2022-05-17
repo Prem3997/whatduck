@@ -18,7 +18,7 @@ const FooterMain = () => {
               fill="white"
             />
           </svg>
-          <span className="footer__main__links">LinkedIn</span>LinkedIn
+          <span className="footer__main__links">LinkedIn</span>
         </div>
         <div className="footer__linkedin">
           <img src="assets/images/Medium.png" alt="medium" />
