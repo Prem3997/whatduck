@@ -10,3 +10,12 @@
   );
   gap: 30px;
 }
+@media (max-width: 425px) {
+  .integration__page {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 425px !important;
+    font-size: 34px;
+  }
+}

@@ -3,11 +3,11 @@ import "../Styles/IntegrationPageRight.css";
 const IntegrationPageRight = () => {
   return (
     <>
-      <article className="howitworks__article">
+      <article className="integration__article">
         <h1 className="integration__title">
           Whatduck integrates with the tools you love
         </h1>
-        <p className="howitworks__desc">
+        <p className="integration__desc">
           Upload your app on our platform and simply navigate through it. We
           automatically create Tests that can be replayed with every app update,
           across devices and screen resolutions. No more flaky scripts anywhere,

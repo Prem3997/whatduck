@@ -65,3 +65,37 @@
     transform: rotate(360deg) translate(200px) rotate(-360deg);
   }
 }
+@media (max-width: 425px) {
+  .circle {
+    margin-left: 0px;
+    width: 300px;
+    height: 300px;
+    padding-top: 210px;
+  }
+  .nucleus {
+    left: 112.86px;
+    margin-top: -15%;
+  }
+  .integration2,
+  .integration1 {
+    margin-top: -15%;
+    margin-left: 0%;
+  }
+  .integration3,
+  .integration4,
+  .integration5 {
+    margin-top: -15%;
+    margin-left: 0%;
+  }
+
+  @keyframes rotateBig {
+    from {
+      -webkit-transform: rotate(0deg);
+      transform: rotate(0deg) translate(150px) rotate(0deg);
+    }
+    to {
+      -webkit-transform: rotate(359deg);
+      transform: rotate(360deg) translate(150px) rotate(-360deg);
+    }
+  }
+}

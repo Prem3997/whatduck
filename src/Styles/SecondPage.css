@@ -1,6 +1,11 @@
-.secondpage__container{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    background: #010001;
+.secondpage__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background: #010001;
+}
+@media (max-width: 425px) {
+  .secondpage__container {
+    flex-direction: column;
+  }
 }
