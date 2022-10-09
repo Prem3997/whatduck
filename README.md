@@ -43,7 +43,7 @@ https://user-images.githubusercontent.com/37274588/194747738-c32328ad-7353-46b7-
 
 | Tools             | Versions |
 | ------------------| -------- |
-| react             | 6.1.0    |
+| react             | 18.1.0    |
 
 ### Running Project
 
